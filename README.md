@@ -7,7 +7,7 @@ This project helps in automation of taking screenshots of a youtube video being 
   * COMMAND : `node youtube -l "Link_Of_The_Video" Time_Interval_Between_SS "File_Name"` 
 * If you aren't sure about which video to pick, you can simply enter the search you want to make, just like a normal youtube search, it will automatically go to YouTube and search for the given keywords and bring back the SS of the 1st video. 
   * COMMAND : `node youtube -p "Link_Of_The_Playlist" Time_Interval_Between_SS "File_Name"`
-* Take SS of  a playlist of videos parallely 
+* Take SS of  a playlist of videos parallely, 5 tabs(videos) will be opened simultaneously.   
   * COMMAND : `node youtube -pParallel "Link_Of_The_Playlist" Time_Interval_Between_SS "File_Name"`
 ## Usage<br />
 1. Clone this respository on your system.
@@ -27,4 +27,4 @@ This project helps in automation of taking screenshots of a youtube video being 
 1) Allow access to chromium if your anti-virus interrupts.<br />
 2) Make sure the word document is not open(if a file with the  given name already exists) before running any command.
 3) For Parallel Screenshots you need to change to every tab that is opened automatically and wait for the vid to start.
-4) Youtube ads are annoying no doubt, for now you need to skip YouTube ads manually
+4) Youtube ads are annoying no doubt, so you can use a browser with inbuilt ad blocker functionality like `Brave` or you'll have to skip ads manually.
